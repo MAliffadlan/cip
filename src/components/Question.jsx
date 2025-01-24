@@ -11,11 +11,11 @@ function Question() {
   const inputRef = useRef(null);
 
   // Customize your own Trending Searches
-  const trends = ["kenapa sifa sangat manis?", "kenapa sifa sangat lebih mencintainya?", `Tanggal lahir sifa maulida?`];
+  const trends = ["kenapa sifa sangat manis?", "Mengapa sifa lebih mencintainya?", `Tanggal lahir sifa (karena pacarnya lupa)`];
 
   const handleSearch = (e) => {
     e.preventDefault();
-    if (searchQuery.toLowerCase() === "Kapan sifa ulang tahun?" || searchQuery.toLowerCase() === "Kapan sifa ulang tahun?") {
+    if (searchQuery.toLowerCase() === "kapan sifa ulang tahun?" || searchQuery.toLowerCase() === "how long have we been together") {
       navigate("/timer");
     } else {
       navigate("/question");
@@ -72,7 +72,7 @@ function Question() {
             </div>
           </form>
           <div className="mt-10  px-5 text-white/50">
-            <p>Ketik di sini: kapan sifa ulang tahun?</p>
+            <p>coba cari: "kapan sifa ulang tahun?"</p>
           </div>
         </div>
       )}
