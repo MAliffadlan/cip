@@ -36,7 +36,7 @@ function Question() {
             }}
           >
             <Search className="w-5 h-5 text-[#9aa0a6]" />
-            <input ref={inputRef} type="text" className="flex-1 bg-transparent outline-none" placeholder="Search Google or type a URL" />
+            <input ref={inputRef} type="text" className="flex-1 bg-transparent outline-none" placeholder="Coba cari sifa lebih dalam lagi" />
             <Mic className="w-5 h-5 text-[#8ab4f8]" />
             <Camera className="w-5 h-5 text-[#8ab4f8]" />
           </div>
